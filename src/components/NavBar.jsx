@@ -6,7 +6,7 @@ return (
         <Link 
             to='/'
         >
-            Your Name
+            Ryan Merica 
         </Link>
 
         <ul>
@@ -43,3 +43,5 @@ return (
     </nav>
 )
 }
+
+export default NavBar

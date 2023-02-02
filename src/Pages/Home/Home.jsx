@@ -1,6 +1,8 @@
+
+
 function Home () {
   return (
-    <h1>Home</h1>
+    <p>Hello, I'm Ryan -- a software engineer and music producer.</p>
   )
 }
 
