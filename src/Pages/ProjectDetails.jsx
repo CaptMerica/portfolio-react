@@ -1,10 +1,12 @@
-import projectsData from "../data/projects"
+import { useParams } from "react-router-dom"
+import findProject from "../utilities/findProject"
 
 
 
-const ProjectDetails() {
+const ProjectDetails = () => {
   const { projectDetails } = useParams()
   const projectData = findProject(projectDetails)
+  console.log(projectData);
   return (
     <>
       <h1>{projectData[0].title}</h1>
