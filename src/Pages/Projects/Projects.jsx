@@ -1,6 +1,17 @@
+import projectsData from "../../data/projects"
+
 function Projects () {
   return (
-    <h1>Projects</h1>
+    <main id="projects">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <div>
+            <ProjectsList projects={projectsData} />
+          </div>
+        </li>
+      </ul>
+    </main>
   )
 }
 
