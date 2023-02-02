@@ -34,7 +34,7 @@ return (
             </li>
             <li>
                 <Link
-                    to='/Resume'
+                    to='/resume'
                 >
                     Resume
                 </Link>
